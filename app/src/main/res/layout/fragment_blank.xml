@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#494EED"
+    tools:context=".BlankFragment">
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/ic_group_3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="188px"
+        android:layout_marginHorizontal="100dp"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:textColor="@color/white"
+        android:layout_marginTop="370sp"
+        android:layout_marginHorizontal="120sp"
+        android:textSize="24sp"
+        android:text="Smart Wallet"
+        android:layout_width="153sp"
+        android:layout_height="28sp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:textColor="@color/white"
+        android:layout_marginTop="420sp"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="55sp"
+        android:textSize="18sp"
+        android:layout_width="290sp"
+        android:layout_height="wrap_content"
+        android:text="Managing your money can be the easiest thing you do all day."/>
+
+</FrameLayout>
